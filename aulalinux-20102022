@@ -1,0 +1,32 @@
+Objetivo da atividade de hoje:20/10/2022
+
+primeira etapa:Iniciar a Maquina Virtual do Linux Mint 
+
+segunda etapa : caso queira atualizar o sistema : 
+              #01_ ultilizar o MintUpdate
+			  #02_ ultilizar o terminal - apt
+			       atalho: CTRL + ALT + T
+				        sudo apt update
+						sudo apt upgrade
+						sudo apt full-upgrade
+						sudo apt dist-upgrade
+						sudo apt autoremove
+						sudo apt autoclean
+						
+Terceira etapa: instalar software (Linux) 
+                Microsoft - .EXE ou MSI
+				-----------------------
+				Linux mint 15 - .DEB
+				Google Chrome - 64bits .deb
+				Opera Linux
+				------------------------------------
+				(PESQUSAR) 
+				Gdebi é o que vai instalar pacotes no PC
+				Dependencias 
+				Centarl de Aplicativos
+				terminal - apt 
+				----------------------------
+				sudo apt install git vim psensor
+				
+				o TABE ele faz um alto complemento 
+				
