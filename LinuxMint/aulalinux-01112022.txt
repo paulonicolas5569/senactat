@@ -1,0 +1,33 @@
+Objetivo da Atividade de hoje: 01/11/2022
+
+primeira etapa: Iniciar a Maquina virtual do Linux Mint
+
+segunda etapa : caso queira atualizar o sistema:
+                #01- utilizar o MitUpdate
+				#02- utilizar o terminal - apt 
+				     Atalho: ctrl + Alt + T
+					       sudo apt update 
+						   sudo apt upgrade
+						   sudo apt full-upgrade
+						   sudo apt dist-upgrade
+						   sudo apt autoremove
+						   sudo apt autoclean 
+						 
+https://github.com/paulonicolas5569/senactat 
+
+Githube nao tem diretorio é sempre repositorio 
+Githube - microsoft = GNU/linux open source 
+                      ( case sensitive ) = faz diferenca de maiusculas para minusculas 
+
+   1: pesquisar:
+   2:Markdown - extensão: *.md
+   3:README.md
+   
+   pesquisar: o que o comando : git - editor: VSCode
+                                     (Visul Studio Code)
+			comando do git (clonar) 
+
+    para instalar o git no Linux 
+	sudo apt update 
+	sudo apt install git vim 
+	
