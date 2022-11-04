@@ -1,0 +1,77 @@
+ 03/11/2022
+ 
+ terninal : ctrl + alt + T - bash
+      senac do lado esquerdo é o seu usuario 
+	  o ' @ ' significa = concatenar 
+	  senac do lado direito é o nome do computador 
+	  ---------------------------------------------------
+	 
+	 ~ significa um apilido = que faz referencia a 'home'
+	  $ = faz referncia ao usuário sem direito 
+	  # = super usuário ---> root sudo 
+	  ---------------------------------------------------
+	 
+	 sudo -i ()  super usuário 
+	  para sair 'exit' ( atalho do exit crtl + D )
+	  history(historico de comandos) 
+	     ! ( executar o comando na linha do history ) 
+	  clear ( limpar a tela , atalho ctrl + L ) 
+	  --------------------------------------------------
+	 
+	 pedir ajuda no Linux 
+	  apt   ( ajuda simples ) 
+	  --help ( ajuda resumida do comando ) 
+	  man    ( manual do comando ) serve para entrar no menual 
+	  q      (quit) serve para sair do manual 
+	  --------------------------------------------------
+	  
+	  guia foca pt - br (serve para voce pesquisar os comndos do Linux ) 
+	  SS64    - EN https://ss64.com/bash/ 
+	  -------------------------------------------------
+	  
+	  comandos de diretório e arquivos  
+	  git clone ( significa clonar repositorio do github )
+	  comando  ls  para    ( listar arquivos ou diretorios ) 
+	  sempre na cor azul do terminal é diretorio 
+      ls -lh ( modo detalhado )
+	  cd     ( significa mudar de diretorio )
+	  TAB    ( tabulador: auto-completar )
+	  cd -   (significa voltar )
+	  cd ..  ( voltar um diretorio )
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
