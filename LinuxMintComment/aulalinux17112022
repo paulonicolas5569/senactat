@@ -1,0 +1,46 @@
+Obgetivo da atividade de hoje 17/11/2022
+
+Primeira etapa : iniciar a Maquina virtual do Linux Mint 
+
+Segunda etapa .: SEM NECESSIDADE DE ATUALIZAÇÃO 
+ primeira etapa : finalização dos conceitos basicos de 
+     #01-bash/shell 
+	 #02-comandos da manipulação de arquivos e diretorio 
+	 #03-comandos de redes (Linux Mint e Windows de arquivos e diretorios 
+	 #04-Git e Github
+	 
+Terceira etapa : AGUARDAR OS PROCEDIMENTOS DA AULA DE HOJE 
+
+                           COMANDOS 
+
+# comando de mover (renomear
+mv -v ORIGEM DESTINO 
+
+#comando de copiar 
+cp -v ORIGEM DESTINO 
+
+# comando de imprimir mensagem na tela 
+echo SENAC tatuapé
+echo SENAC tatuapé > SENAC.txt
+
+#comando achar a pasta 
+>
+
+#comando para listar o conteúdo do arquivo
+cat -n
+# comando para listar o conteudo do arquivo ,
+# mais eu posso escolher as linhas 
+head /etc/services
+tail /etc/services
+
+head -n20 /etc/services
+tail -n20 /etc/services
+
+# sesafio do prof. ramos (0 melhor !!!!!!!!)
+cat -n /etc/services | head -n20
+
+EU RAMOS QUE LISTAR O CONTEUDO DO ARQUIVO EM 
+/WTC/SERVICES DAS LINHAS : 100 ATÉ 200
+361 = 1 ATÉ 99:EXCLUIR
+       100 ATÉ 
+	   less
