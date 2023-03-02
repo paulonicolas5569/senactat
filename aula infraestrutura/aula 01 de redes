@@ -51,3 +51,14 @@ A diferenca entre a fastEthernet ( amarela)  e a GigabitEthrnet ( laranja ) é q
 Despositivos finais : tudo que seja ligavel e que consiga tocar e configurar 
 Ativos de rede ( dispositivos de meio) : roteadores , switch , entre outros  ( aqueles que ligam na tomada ou que emite um pulso de energia eletrica ) 
 Passivo de rede ( meio fisico : cado de rede e rede sem fio 
+
+Lan: VLAN (consegue mexer), rede de area local, dentro de uma rede no dentro do estabelecimento
+Wan: Tem uma rede propria geralmente da operadora onde não e possivel mexe-la 
+
+TIPO DE INTERNET:
+Intranet: tudo construido dentro da rede local privatizada (Informaçoes pessoais dentro do site)
+Extranet: Acesso seguro a inforações de diferentes organizações, necessitando o acesso aos dados da intranet da empresa (Logo apos fazer o login ou cadastro no site)
+Internet: Rede mundialmente interconectada, afim de trocar informação por meio de padrões comuns (pagina do website)	
+
+Caso funcione no Cisco, funciona na vida real
+Topologia fisica não depende da topologia logica, mas a logica depende da física
