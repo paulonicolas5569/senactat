@@ -1,0 +1,76 @@
+                                            Aula 08 de redes Projeto cisco 
+
+Objetivo da atividade de hoje 23/03/2023. 
+
+Primeira etapa.: Iniciar o Cisco Packet Tracer
+				 (se autenticar com a sua conta)
+				 
+Segunda etapa..: Material da aula está na Rede
+				 T:\Publica\!!!!RobsonVaamonde\InfraestruturaDeRede
+
+Terceira etapa.: Se autenticar com a sua Conta no Github
+				 (recomendo para manter o seu material atualizado e organizado)
+				 
+Quarta etapa...: Iniciar o Visual Studio Code
+				 Abrir o projeto do Cisco Packet Tracer
+				 
+Quinta etapa...: INICIAR O MATERIAL InfraestruturaDeRedes-03.pdf
+
+===========================================================================================================================
+
+enable 
+!data e hora 
+    clock set 20:45:00 21 march 2023 
+    !entrar na configuração do terminal 
+    configure terminal 
+        !nome do host 
+        hostname rt-2911-1
+        service password-encryption 
+        service timestamps log datetime msec
+        service timestamps debug datetime msec
+        no ip domain-lookup 
+        banner motd #AVISO: acesso autorizado somente para funcionario#
+        security passwords min-length 7 
+        enable secret 123@senac 
+        username senac secret 123@senac 
+        username tatuape password 123@senac 
+        username admin privilege 15 secret 123@senac  
+        ip domain-name senac.br 
+        crypto key generate rsa general-keys modulus 1024
+        ip ssh version 2 
+        ip ssh time-out 60 
+        ip ssh authentication-retries 2 
+        login block-for 120 attempts 2 within 60 
+        line console 0 
+            login local
+            password 123@senac
+            logging synchronous 
+            exec-timeout 5 30 
+            exit 
+        line vty 0 4 
+            login local 
+            password 123@senac 
+            logging synchronous 
+            exec-timeout 5 30 
+            transport input ssh 
+            exit 
+        interface gigabitEthernet 0/0 
+            description interface de gateway
+            ip address 168.168.2.254 255.255.255.0 
+            no shutdown 
+            exit 
+        interface gigabitEthernet 0/1
+            description interface de WAN Routre 2911
+            ip address 10.0.0.2 255.255.255.252 
+            no shutdown 
+          end
+    write
+
+
+    !verificar as configuracões 
+    show running-config 
+    show ip interface brief        
+    show interface gigabitEthernet 0/0 
+    show ip route 
+
+            copy running-config startup-config 
