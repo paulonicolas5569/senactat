@@ -1,0 +1,25 @@
+                                            COMANDOS BASICOS DA CONFIGURAÇÃO DO SWITCH
+
+enable
+	clock set 21:00:00 28 de march 2023
+	configure terminal
+	hostname sw-05
+	service password-encryption
+	service timestamps log datetime msec
+	login block-for 120 attempts 4 within 60
+	no ip domain-lookup
+	enable secret 123@senac
+	username Gustavo 15 secret 123@senac
+	username Paulo 15 secret 123@senac
+	username Gabriela 15 secret 123@senac
+	username Gabriel 15 secret 123@senac
+	line console 0
+		password 123@senac
+		login local
+		logging synchronous
+		exec-timeout 5 30
+		end
+copy running-config startup-config
+show running-config
+disable
+exit
